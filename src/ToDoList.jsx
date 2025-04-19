@@ -31,6 +31,9 @@ function ToDoList() {
     newTasks(updatedTasks);
   }
 
+/**
+ * * optional feature to move the tasks up and down in the list.
+ 
   function moveToDoUp(index) {
     const updatedTasks = [...tasks];
     if (index > 0) {
@@ -51,7 +54,7 @@ function ToDoList() {
       newTasks(updatedTasks);
     }
   }
-
+*/
   return (
    
       <div className="content inter">
@@ -97,20 +100,7 @@ function ToDoList() {
                   >
                     <i class="fa-solid fa-trash"></i>
                   </button>
-                  <button
-                    className="move-up-button cursor-pointer mx-2"
-                    araia-label="move up"
-                    onClick={() => moveToDoUp(index)}
-                  >
-                    <i class="fa-solid fa-arrow-up"></i>
-                  </button>
-                  <button
-                    className="move-down-button cursor-pointer ml-2"
-                    aria-label="move down"
-                    onClick={() => moveToDoDown(index)}
-                  >
-                    <i class="fa-solid fa-arrow-down"></i>
-                  </button>
+                 
                 </span>
               </li>
             ))}
