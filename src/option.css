@@ -1,0 +1,18 @@
+:root {
+  --ok-color: #67ae6e;
+  --cancel-color: #e03e3e;
+}
+
+select {
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+
+.n-d {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}

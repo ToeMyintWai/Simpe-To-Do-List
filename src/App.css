@@ -1,0 +1,45 @@
+input {
+  width: 400px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.input-container,
+.tasks-container {
+  background-color: var(--secondry-color);
+}
+
+.add-button {
+  background-color: var(--optional-color);
+}
+
+.list-container {
+  font-size: 16px;
+}
+
+.text {
+  white-space: nowrap;
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*.task-list {
+    background-color: var(--optional-color);
+}*/
+
+/* media querry **/
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 90%;
+  }
+}
